@@ -1,5 +1,6 @@
 :root {
     --theme-color: cornflowerblue;
+    --icon-height: 200px;
 }
   
 input, button, pre {
@@ -19,3 +20,34 @@ strong {
     background-color: #4f4f4f !important;
 }
 
+
+
+
+/* Icon */
+.search {
+    position: absolute;
+    width: 100%;
+    /* top: var(--icon-height); */
+    top: 240px;
+    z-index: 10;
+    border: none !important;
+}
+
+.sidebar > h1 {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    left: 0;
+}
+
+.sidebar-nav {
+    position: absolute;
+    width: 100%;
+    /* top: var(--icon-height); */
+    top: 300px;
+    border: none !important;
+}
+
+.app-name > * > img {
+    height: var(--icon-height);
+}
