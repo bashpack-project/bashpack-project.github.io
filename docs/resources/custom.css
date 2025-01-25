@@ -1,0 +1,11 @@
+input, button, pre {
+    border-radius: 8px;
+}
+
+pre > *, span > * {
+    color: #B8B8B8 !important;
+}
+
+.error, .success {
+    background-color: #4f4f4f !important;
+}
