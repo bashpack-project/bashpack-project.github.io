@@ -1,11 +1,21 @@
+:root {
+    --theme-color: cornflowerblue;
+}
+  
 input, button, pre {
     border-radius: 8px;
 }
 
-pre > *, span > * {
+pre > *, span > *, code {
     color: #B8B8B8 !important;
+}
+
+strong {
+    color: var(--theme-color) !important;
+    /* color: #b89d6a !important; */
 }
 
 .error, .success {
     background-color: #4f4f4f !important;
 }
+
