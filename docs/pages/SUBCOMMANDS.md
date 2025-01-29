@@ -1,0 +1,1 @@
+[remoteMarkdownUrl](https://raw.githubusercontent.com/bashpack-project/commands/main/README.md)

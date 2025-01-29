@@ -17,11 +17,15 @@
     // 4. Docsify Configuration
     window.$docsify = {
       name: "Bashpack",
-      homepage: "README.md",
+      homepage: "pages/README.md",
       themeColor: '#c26e32',
       subMaxLevel: 4,
       loadSidebar: true,
       logo: 'resources/icon.png',
+
+      remoteMarkdown: {
+        tag: 'remoteMarkdownUrl',
+      },
 
       // 5. docsify-themeable
       themeable: {
@@ -36,6 +40,6 @@
   <!-- Plugins -->
   <script src="resources/docsify-copy-code.js"></script>
   <script src="resources/search.js"></script>
-
+  <script src="resources/docsify-remote-markdown.min.js"></script>
 </body>
 </html>

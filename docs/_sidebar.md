@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/)
-* [Changelog](CHANGELOG.md)
+* [Introduction](/)
+* [Subcommands](pages/SUBCOMMANDS.md)
+* [Changelog](pages/CHANGELOG.md)
